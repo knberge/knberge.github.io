@@ -3,6 +3,7 @@
     --blue: #1b3463;
     --yellow: #d2a858;
     --black: #211d23;
+    background-color: var(--black);
 }
 
 @font-face {
@@ -52,6 +53,7 @@ h3 {
 p {
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
 }
 
 nav {
@@ -196,7 +198,7 @@ button:hover {
 }
 
 .contact-links:hover {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--yellow);
 }
 
 .icon {
