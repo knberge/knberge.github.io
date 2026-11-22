@@ -4,8 +4,22 @@
     --black: #373737;
 }
 
+@font-face {
+  font-family: 'Disket Mono';
+  src: url('/font/Disket-Mono-Regular.ttf') format('truetype'), 
+    url("font/Disket-Mono-Regular.woff") format('woff'), 
+    url("font/Disket-Mono-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Disket Mono Bold';
+  src: url('/font/Disket-Mono-Bold.ttf') format('truetype'), 
+    url("font/Disket-Mono-Bold.woff") format('woff'), 
+    url("font/Disket-Mono-Bold.woff2") format('woff2');
+}
+
 html {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Disket Mono', 'Roboto Mono', monospace;
     color: #000000;
     text-align: center;
 }
@@ -16,21 +30,19 @@ body {
 
 h1 {
     font-size: 40px;
-    font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
     font-size: 36px;
-    font-family: 'Libre Baskerville', serif;
 }
 
 h3 {
     font-size: 30px;
-    font-family: 'Noto Serif', serif;
 }
 
 p {
     font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 nav {
