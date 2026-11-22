@@ -88,7 +88,7 @@ a {
 }
 
 .icon-link {
-    padding: 20px 15px 9.5px 15px;
+    padding: 10px 15px;
 }
 
 .section-link,
@@ -104,29 +104,31 @@ a {
 
 #nav-contact {
     font-size: 27px;
-    margin-top: 10px;
+    display: flex;
 }
 
 #about-section {
     display: flex;
     align-items: center;
-    padding-top: 50px;
+    justify-content: center;
+    padding: 50px 0px 40px;
     background-color: var(--black);
-    background-image: radial-gradient(circle, var(--blue) 10%, var(--black) 10%);
-    background-size: 50px 50px;
+    background-image: radial-gradient(circle, var(--blue) 15%, var(--black) 10%);
+    background-size: 30px 30px;
+    background-position: bottom;
 }
 
 #portrait {
-    width: 250px;
-    height: 250px;
-    border: 10px solid var(--red);
+    width: 200px;
+    height: 200px;
+    border: 8px solid var(--red);
     border-radius: 50%;
-    margin: 20px;
+    margin: 40px 20px;
     object-fit: cover;
 }
 
 #about-info {
-    padding: 30px;
+    padding: 40px 20px;
 }
 
 #about-info p {
@@ -184,8 +186,8 @@ button:hover {
 
 #contact-section {
     background-color: var(--black);
-    background-image: radial-gradient(circle, var(--red) 10%, var(--black) 10%);
-    background-size: 50px 50px;
+    background-image: radial-gradient(circle, var(--red) 15%, var(--black) 10%);
+    background-size: 30px 30px;
     padding: 20px 10px 60px;
 }
 
@@ -209,7 +211,7 @@ button:hover {
 
 @media (max-width: 800px) {
     #about-section {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     #portrait {
@@ -232,7 +234,7 @@ button:hover {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     #nav-contact {
         display: none;
     }
