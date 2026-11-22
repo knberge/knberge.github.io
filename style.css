@@ -31,10 +31,17 @@ body {
 
 h1 {
     font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: var(--red);
+    line-height: 60px;
 }
 
 h2 {
     font-size: 36px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: var(--blue);
 }
 
 h3 {
@@ -101,7 +108,9 @@ a {
     display: flex;
     align-items: center;
     padding-top: 50px;
-    background-color: var(--blue);
+    background-color: var(--black);
+    background-image: radial-gradient(circle, var(--blue) 10%, var(--black) 10%);
+    background-size: 50px 50px;
 }
 
 #portrait {
@@ -170,7 +179,9 @@ button:hover {
 }
 
 #contact-section {
-    background-color: var(--blue);
+    background-color: var(--black);
+    background-image: radial-gradient(circle, var(--red) 10%, var(--black) 10%);
+    background-size: 50px 50px;
     padding: 20px 10px 60px;
 }
 
