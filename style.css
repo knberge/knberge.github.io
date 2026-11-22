@@ -164,6 +164,7 @@ a {
 
 button {
     background-color: var(--red);
+    font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     padding: 8px;
     margin: 0 5px;
@@ -195,6 +196,7 @@ button:hover {
 .contact-links {
     font-size: 20px;
     margin: 10px;
+    display: inline-block;
 }
 
 .contact-links:hover {
